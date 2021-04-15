@@ -1,5 +1,44 @@
 $color-title: green;
+$color-text-base: red;
+$padding-text: 20px;
+$align-title: center;
+$list-flex : flex;
+$list-no-style: none;
+$img-max-width: 300px;
+$img-border-radius: 30px;
+$button-padding: 15px;
+$button-color: purple;
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
 h1 {
-     color: $color-title;
+ color: $color-title;
+ text-align: $align-title;
+}
+h2 {
+ color: $color-title;
+}
+
+p {
+color: $color-text-base;
+padding: $padding-text;
+}
+ul {
+display: $list-flex;
+list-style: $list-no-style;
+}
+li {
+padding: $padding-text;
+}
+
+.img-prova img {
+max-width: $img-max-width;
+border-radius: $img-border-radius;
+}
+button {
+background-color: $button-color;
+padding: $button-padding;
 }
